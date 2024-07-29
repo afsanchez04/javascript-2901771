@@ -27,10 +27,10 @@ body{
     border-radius: 50%;
     bottom: 100px;
     right: 200px;
-    /* animation-name: solmove; */
+    /* animation-name: solmove;  */
     animation-duration: 4s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
 }
 
