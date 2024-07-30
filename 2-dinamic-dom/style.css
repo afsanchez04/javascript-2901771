@@ -54,4 +54,6 @@ main{
     margin: auto;
     top: -15px;
     cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
 }
