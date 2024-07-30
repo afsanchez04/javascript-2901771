@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+header{
+    background-color: bisque;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+main{
+    position: relative;
+    width: 900px;
+    height: 400px;
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 30px auto;
+}
+
+.pelota{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #a5f687;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pelota span{
+    font-size: 1.3em;
+}
+.equis{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 188, 188);
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    top: -15px;
+    cursor: pointer;
+}
