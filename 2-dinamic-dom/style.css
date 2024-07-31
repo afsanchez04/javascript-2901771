@@ -18,17 +18,19 @@ header{
 }
 
 main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
     position: relative;
     width: 900px;
     height: 400px;
-    background-color: aqua;
     border: 3px solid black;
     border-radius: 15px;
     margin: 30px auto;
 }
 
 .pelota{
-    position: absolute;
+    position: relative;
     width: 100px;
     height: 100px;
     background-color: #a5f687;
