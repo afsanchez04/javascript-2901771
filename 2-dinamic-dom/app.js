@@ -22,5 +22,22 @@ function borrarTodo(){
     num = 1;
 }
 
+function borrarPelotica (e){
+    if(e.target.innerText === 'x'){
+        let papa = e.target.parentElement.remove()
+        console.log(papa)
+        if(main.children.length === 0){
+            num=1;
+            e.target.style.textDecoration = 'none';
+        }
+    }
+}
+
+function tachar (e){
+    e.target.style.textDecoration = 'line-through';
+}
+
 btnCrear.addEventListener('click',crear);
 btnBorrar.addEventListener('click',borrarTodo)
+main.addEventListener('click',borrarPelotica)
+main.addEventListener('click',tachar)
