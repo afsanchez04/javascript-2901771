@@ -1,3 +1,39 @@
+
+//let cosas = ["uno","dos","tres","cuatro","cuarenta"]
+const container = document.querySelector(".container")
+
+peliculas.forEach(item => {
+
+    //<div class="card"></div>
+    let card = document.createElement('div');
+    card.classList.add('card')
+
+    card.innerHTML = `
+            <img src="${item.image}" alt="">
+            <div class="texto">
+                <h1>${item.nombre}</h1>
+                <p>${item.direccion}</p>
+                <p>${item.year}</p>
+                <p>${item.genero[0]}</p>
+            </div>
+    `
+    container.appendChild(card) 
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* let pelicula = {
     nombre: "The Shining",
     year: 1980,

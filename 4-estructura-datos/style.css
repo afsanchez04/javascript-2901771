@@ -1,0 +1,21 @@
+.card{
+    background-color: rgb(58, 61, 67);
+    display: flex;
+    width: 500px;
+    color: white;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.texto{
+    margin-top: -10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(32, 35, 41);
+}
